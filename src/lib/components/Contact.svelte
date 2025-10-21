@@ -225,7 +225,7 @@
           <button
             type="submit"
             disabled={formStatus === 'sending'}
-            class="w-full px-6 py-4 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+            class="w-full px-6 py-4 bg-secondary text-foreground rounded-lg font-semibold hover:bg-secondary/80 transition-all hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
           >
             {#if formStatus === 'sending'}
               <Loader size={20} class="animate-spin" />
